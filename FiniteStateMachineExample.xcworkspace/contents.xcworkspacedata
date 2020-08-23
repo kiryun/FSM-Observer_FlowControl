@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:FSMSample/FSMSample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:API/API.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Core/Core.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Push/Push.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Store/Store.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Member/Member.xcodeproj">
+   </FileRef>
+</Workspace>
