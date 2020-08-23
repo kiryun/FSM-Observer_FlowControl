@@ -22,7 +22,7 @@ FSM은 다음과 같은 특징을 갖고 있다.
 
 우선 만들고자 하는 상태 머신은 다음과 같다.
 
-![image-20200823191841904](/Users/gihyunkim/Library/Application Support/typora-user-images/image-20200823191841904.png)
+![image-20200823191841904](README.assets/image-20200823191841904.png)
 
 
 
@@ -32,7 +32,7 @@ FSM은 다음과 같은 특징을 갖고 있다.
 
 아래 처럼 FSM이 Subject 역할을 하고 그외 모듈들이 FSM을 구독하고 있는 Observer가 된다.
 
-![image-20200823192648814](/Users/gihyunkim/Library/Application Support/typora-user-images/image-20200823192648814.png)
+![image-20200823192648814](README.assets/image-20200823192648814.png)
 
 
 
@@ -248,7 +248,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 ### 결과
 
-![image-20200823193739334](/Users/gihyunkim/Library/Application Support/typora-user-images/image-20200823193739334.png)
+![image-20200823193739334](README.assets/image-20200823193739334.png)
 
 결과는 로그인을 시도함에 따라 각 state가 변경됨에 따라서 구독중인 모든 observer들에게 notify가 갈 것이고, observer들은 state에 따라서 정해진 일을 수행하게 된다.
 
